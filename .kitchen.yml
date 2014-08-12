@@ -1,7 +1,11 @@
 ---
 driver:
   name: vagrant
-
+  vagrantfile_erb: Vagrantfile.erb
+  proxy:
+    http: "http://pascal:80/"
+    https: "http://pascal:80/"
+    no_proxy: "localhost,127.0.0.1,.example.com"
 provisioner:
   name: chef_solo
 
@@ -13,6 +17,8 @@ suites:
     run_list:
       - recipe[weblogic::default]
     attributes:
+      weblogic:
+        remote_installation_file: "http://git-1.athens.intrasoft-intl.private/V13672-01.zip"
       java:
         install_flavor: "oracle"
         jdk_version: "6"
