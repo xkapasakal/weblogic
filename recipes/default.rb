@@ -11,7 +11,7 @@
 include_recipe 'java'
 
 remote_file "/home/vagrant/V13672-01.zip" do
-  source "http://10.0.2.2:8000/V13672-01.zip"
+  source node['weblogic']['remote_installation_file']
   owner "vagrant"
   group "vagrant"
   checksum "d811df7ae7852f70f59bb2ef8bf313358918bcaf33dc824e67471eb849a866ba"
