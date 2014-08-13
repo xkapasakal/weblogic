@@ -1,6 +1,6 @@
 name             'weblogic'
-maintainer       'YOUR_NAME'
-maintainer_email 'YOUR_EMAIL'
+maintainer       'Christos Kapasakalidis'
+maintainer_email 'xkapasakal@gmail.com'
 license          'All rights reserved'
 description      'Installs/Configures weblogic'
 long_description 'Installs/Configures weblogic'
