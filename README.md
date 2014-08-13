@@ -16,13 +16,14 @@ TODO: List your supported platforms.
     <th>Default</th>
   </tr>
   <tr>
-    <td><tt>['weblogic']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
+    <td><tt>['weblogic']['remote_installation_file']</tt></td>
+    <td>Zip File</td>
+    <td>Location of weblogic zip installer</td>
+    <td><tt>http://10.0.2.2:8000/V13672-01.zip</tt></td>
   </tr>
 </table>
-
+      weblogic:
+        remote_installation_file: "http://git-1.athens.intrasoft-intl.private/V13672-01.zip"
 ## Usage
 
 ### weblogic::default
