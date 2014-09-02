@@ -1,10 +1,10 @@
 # weblogic-cookbook
 
-TODO: Enter the cookbook description here.
+Installs Application server Oracle WebLogic Server 10.3.0.0
 
 ## Supported Platforms
 
-TODO: List your supported platforms.
+- CentOS 6.5
 
 ## Attributes
 

@@ -24,9 +24,9 @@ suites:
         jdk_version: "6"
         arch: "x86_64"
         jdk:
-          "6":
+          '6':
             x86_64:
-              url: "http://download.oracle.com/otn-pub/java/jdk/6u5b/jdk-6u5-linux-x64.bin"
+              url: "http://git-1.athens.intrasoft-intl.private/jdk-6u5-linux-x64.bin"
               checksum: "772ea25e5c4d8fa48db1a4b2349e17b8b1ca033814ff28b2dd34f88255070a26"
-        oracle:
-          accept_oracle_download_terms: true
+        # oracle:
+        #   accept_oracle_download_terms: true
