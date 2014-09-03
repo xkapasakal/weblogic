@@ -9,7 +9,10 @@
 
 unless ::Dir.exists?("/home/vagrant/bea")
   # Install Java
-  include_recipe 'java'
+  # include_recipe 'java'
+  yum_package "java-1.6.0-openjdk-devel.x86_64" do
+    action :install
+  end
 
   remote_file "/home/vagrant/weblogic-installer.zip" do
     source node['weblogic']['remote_installation_file']

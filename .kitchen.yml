@@ -19,12 +19,3 @@ suites:
     attributes:
       weblogic:
         remote_installation_file: "http://git-1.athens.intrasoft-intl.private/V13672-01.zip"
-      java:
-        install_flavor: "oracle"
-        jdk_version: "6"
-        arch: "x86_64"
-        jdk:
-          '6':
-            x86_64:
-              url: "http://git-1.athens.intrasoft-intl.private/jdk-6u5-linux-x64.bin"
-              checksum: "772ea25e5c4d8fa48db1a4b2349e17b8b1ca033814ff28b2dd34f88255070a26"
